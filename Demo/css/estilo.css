@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+}
+
+.h1, .h2, .h3 {
+    text-align: left;
+    color: black;
+}
+
+body {
+    display: inline;
+    background-color: rgb(56, 55, 55);
+    padding: 0px;
+    margin: 0px;
+} 
+.p {
+    text-align: left;
+    color: black;  
+} 
+
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(179, 179, 179);
+}
+
+.divInicio {
+    background-color: rgb(56, 55, 55);
+    float: left;
+    width: 13%;
+    padding: 12px;
+    height: 48vw;
+}
+
+.divCeleste {
+    float: left;
+    background-color: skyblue;
+    width: 80%;
+    padding: 35px;
+    height: 19vh;
+}
+.divAmarillo {
+    float: left;
+    background-color: rgb(255, 230, 0);
+    width: 80%;
+    padding: 35px ;
+}
+
+.divNaranjo {
+    float: left;
+    background-color: rgb(255, 145, 0);
+    width: 80%;
+    padding: 35px;
+}
+
+.divRojo {
+    float: left;
+    background-color:rgb(255, 0, 0);
+    width: 80%;
+    padding: 35px ;
+}
+.div2 {
+    float: left;
+    background-color: rgb(56, 55, 55);
+    width: 10mm;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 0px;
+}
+.div {
+    float:left;
+    background-color: rgb(56, 55, 55);
+    width: 79%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 0px;
+}
+.div3 {
+    float:left;
+    background-color: rgb(56, 55, 55);
+    width: 50%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 0px;
+}
+
