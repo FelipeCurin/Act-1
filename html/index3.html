@@ -8,27 +8,50 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <link rel="stylesheet" media="all" href="../css/mountain.css" />
     <title>Actividad 3</title>
   </head>
   <body>
+    <!--Navbar-->
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">
           <img src="https://matchatraccion.files.wordpress.com/2014/11/large-p.gif" width="30" height="30" alt="">
         </a>
+        <div class="position-relative">
+          <!--Buscador-->
+          <nav class="navbar navbar-light bg-light">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </nav>
+        </div>
     </nav>
+    <!--Carrusel-->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://i.pinimg.com/originals/0a/96/8a/0a968a81d7871599a539bacbc6befc00.gif" 
-            class="d-block mw-100" alt="Hello world">
+            <div class="container">
+              <a href="../Ezreal.html">
+              <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg" 
+              class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="div">EZREAL</h5>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+            </div>
           </div>
           <div class="carousel-item">
+            <div class="container">
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg" 
-            class="d-block w-100" class="position-fixed" alt="...">
+            class="d-block w-100" alt="hola1">
+            </div>
           </div>
-          <div class="carousel-item" class="div">
+          <div class="carousel-item">
+            <div class="container">
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg" 
-            class="d-block w-70" alt="...">
+            class="d-block w-100"  alt="...">
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
