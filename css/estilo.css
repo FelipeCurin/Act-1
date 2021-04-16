@@ -1,10 +1,35 @@
 .div{
     font-family:'Cordia New',serif;font-size: 100px;
+    font-stretch: narrower;
+    font-style: italic;
 }
-
-
+.h1{
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
 body{
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(1, 7, 26);
+}
+img{
+    background-image: linear-gradient(rgba(255, 255, 255, 0)50%, rgb(1, 7, 26));
+}
+.bckezreal{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(1, 7, 26)), url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.bckakali{
+    background-image: linear-gradient(rgba(255,255,255,0), rgb(1, 7, 26)), url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}.bckirelia{
+    background-image: linear-gradient(rgba(255,255,255,0), rgb(1, 7, 26)), url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
 }
 
 .centrado{
